@@ -12,5 +12,7 @@ The Algorithm is below:<br>
 * After run through all cells of the matrix, a fuction is used to find the biggest value from the last line of the matrix.<br>
 * Using the same function to find the index, we have the total amount of apples and where it came from.<br>
 * Going the path maded from the indexes stored on the temporary matrix, we can determine the path that colect the most apples, just like the imagem below.<br>
-![alt text](https://github.com/Hideyoshizane/Algorithm-I-Assignment-3/blob/main/image%202.png?raw=true)
+<p align = "center">
+  <img src = "https://github.com/Hideyoshizane/Algorithm-I-Assignment-3/blob/main/image%202.png?raw=true">
+</p>
 * Storing this indexes from the temporary matrix to a vector, we have the complete path, but reversed. We reverse this vector and the final path is found.
